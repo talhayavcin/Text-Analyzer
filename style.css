@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.text-entry h2{
+    text-align: center;
+
+    padding-bottom: 15px;
+}
+
+.container{
+    border-radius: 10px;
+    padding: 25px;
+    width: 500px;
+}
+
+.container textarea{
+    line-height: 1.4;
+    width: 100%;
+    border-radius: 25px;
+    resize: none;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: 0;
+    font-weight: 400;
+    background: rgb(202, 200, 200);
+    color: black;
+}
+.container textarea::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+textarea:placeholder-shown {
+    font-style: italic;
+ }
+
+ #button{
+    background: rgb(68, 175, 236);
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+    color: white;
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease-in-out;
+ }
+
+ #button:hover{
+     background-color: rgb(70, 70, 214);
+ }
+
+ .text-list{
+    list-style: none;
+    margin-top: 20px;
+    padding-top: 1rem;
+    border: 4px solid rgb(70, 70, 214);
+    border-radius: 25px;
+    padding: 1rem 1rem;
+    background: rgb(68, 175, 236);
+ }
+
+ .text-list li{
+     display: flex;
+     padding: 0.6rem 0rem;
+ }
+
+ .text-list li span{
+    color: rgb(68, 175, 236); 
+    font-weight: 700;
+    background: white;
+    padding: 0.1rem 1.5rem;
+    border-radius: 25px;
+    margin-left: auto;
+
+ }
+
+ #word-count{
+     color: rgb(68, 175, 236);
+     margin-left: auto;
+     font-size: 1rem;
+     font-weight: bold;
+ }
+
+ #number-of-letters {
+    color: rgb(68, 175, 236);
+    margin-left: auto;
+    font-size: 1rem;
+    font-weight: bold;
+ }
+
+ #longest-word {
+    color: rgb(68, 175, 236);
+    margin-left: auto;
+    font-size: 1rem;
+    font-weight: bold;
+ }
+
+ #average-word-length {
+    color: rgb(68, 175, 236);
+    margin-left: auto;
+    font-size: 1rem;
+    font-weight: bold;
+ }
